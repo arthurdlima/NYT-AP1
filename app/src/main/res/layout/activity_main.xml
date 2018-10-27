@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="514dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoView"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:contentDescription="@string/logo"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nytimeslogo" />
+
+        <Button
+            android:id="@+id/topStoriesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickTopstories"
+            android:text="@string/top_stories"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <Button
+            android:id="@+id/mostPopularBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/most_popular"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <Button
+            android:id="@+id/bookReviewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book_review"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <Button
+            android:id="@+id/movieReviewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickMovieReview"
+            android:text="@string/movie_review"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <Button
+            android:id="@+id/articleSearchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="clickArticles"
+            android:text="@string/article_search"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="290dp" />
+
+        <Button
+            android:id="@+id/savedContentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/saved_content"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="435dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

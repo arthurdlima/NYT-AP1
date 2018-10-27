@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">New York Times App</string>
+    <string name="top_stories">Top Stories (completo)</string>
+    <string name="most_popular">MOST POPULAR</string>
+    <string name="book_review">BOOK REVIEW</string>
+    <string name="movie_review">MOVIE REVIEW(completo)</string>
+    <string name="article_search">ARTICLE SEARCH (completo)</string>
+    <string name="saved_content">Saved Content</string>
+    <string name="logo">Logo</string>
+    <string name="Return">Return</string>
+    <string name="search_articles">Search Articles</string>
+    <string name="search">Search</string>
+    <string name="article_image">Article image</string>
+    <string name="thumbnail_image">thumbnail_image</string>
+    <string name="headline">headline</string>
+    <string name="date">date</string>
+    <string name="search_movie">Search Movie</string>
+    <string-array name="topstories_spinner">
+        <item>home</item>
+        <item>opinion</item>
+        <item>world</item>
+        <item>national</item>
+        <item>politics</item>
+        <item>science</item>
+        <item>health</item>
+        <item>sports</item>
+        <item>arts</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
