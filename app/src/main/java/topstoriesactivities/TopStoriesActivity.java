@@ -31,7 +31,7 @@ public class TopStoriesActivity extends AppCompatActivity {
     public void topStoriesSearchBtn(View view){
         //Getting the string from spinner to put in url
         String spinnerText = spinner.getSelectedItem().toString();
-        url = "https://api.nytimes.com/svc/topstories/v2/"+spinnerText+".json?api-key=8b7bd25e12164826ba91787497ea5c6b";
+        url = "https://api.nytimes.com/svc/topstories/v2/"+spinnerText+".json?api-key=ojpr9RChTP1F0nBOMBVKgKAlh17jk7SR";
 
         client = new AsyncHttpClient();
         client.get(TopStoriesActivity.this, url, new AsyncHttpResponseHandler() {

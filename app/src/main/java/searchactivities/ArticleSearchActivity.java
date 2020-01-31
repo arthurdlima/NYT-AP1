@@ -43,7 +43,7 @@ public class ArticleSearchActivity extends AppCompatActivity {
         searchString = searchBox.getText().toString();
         searchString = searchString.replaceAll("\\s+","");
 
-        url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=8b7bd25e12164826ba91787497ea5c6b&q="+searchString+"&fl=pub_date,headline,multimedia,web_url&page=0";
+        url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=ojpr9RChTP1F0nBOMBVKgKAlh17jk7SR&q="+searchString+"&fl=pub_date,headline,multimedia,web_url&page=0";
 
         client = new AsyncHttpClient();
         client.get(ArticleSearchActivity.this, url, new AsyncHttpResponseHandler() {

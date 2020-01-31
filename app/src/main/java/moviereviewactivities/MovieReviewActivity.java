@@ -43,7 +43,7 @@ public class MovieReviewActivity extends AppCompatActivity {
         searchString = searchBox.getText().toString();
         searchString = searchString.replaceAll("\\s+","");
 
-        url = "https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=8b7bd25e12164826ba91787497ea5c6b&query="+searchString;
+        url = "https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=ojpr9RChTP1F0nBOMBVKgKAlh17jk7SR&query="+searchString;
 
         client = new AsyncHttpClient();
         client.get(MovieReviewActivity.this, url, new AsyncHttpResponseHandler() {
